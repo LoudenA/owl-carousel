@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Colorful Birds</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <body>
+
+    <h1>Colorful Birds</h1>
+
+    <!--carousel-->
+    <div class="owl-carousel">
+      <div class="item"><img src="img/orange.jpg"></div>
+      <div class="item"><img src="img/light_green.jpg"></div>
+      <div class="item"><img src="img/macaw.jpg"></div>
+      <div class="item"><img src="img/green.jpg"></div>
+      <div class="item"><img src="img/black_parrot.jpg"></div>
+      <div class="item"><img src="img/african_grey.jpg"></div>
+      <div class="item"><img src="img/red_blue.jpg"></div>
+      <div class="item"><img src="img/group_photo.jpg"></div>
+
+
+    </div>
+
+
+    <!-- JavaScript -->
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+      $('.owl-carousel').owlCarousel({
+        autoplay: false,
+        autoplayHoverPause: true,
+        dots: true,
+        items: 1,
+        loop: true,
+        margin: 10,
+        nav: false,
+      })
+     })
+    </script>
+  </body>
+</html>
